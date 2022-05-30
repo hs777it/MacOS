@@ -1,0 +1,22 @@
+
+
+code ~/.zshrc
+
+# PROMPT="%{$fg_bold[white]%}%n %{$fg[blue]%}@ %{$fg_bold[yellow]%}%m"
+PROMPT="%{$fg_bold[green]%}%n "
+# PROMPT+=" %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
+# PROMPT+=' %{$fg[cyan]%}%d%{$reset_color%} $(git_prompt_info)'
+PROMPT+=' %{$fg[cyan]%}%~%{$reset_color%} $(git_prompt_info)'
+
+
+# Explanation:
+# %n is the username
+# %m is the hostname
+# %d is the directory (you can replace it with %~)
+# Note: Space between username and hostname is added in the example above is for clarity,
+#  you can remove them if you want.
+
+# https://github.com/romkatv/powerlevel10k
+# https://stackoverflow.com/questions/27885057/zsh-theme-for-full-path-display-git-changes
+# https://github.com/ohmyzsh/ohmyzsh/tree/c78277fd8bda5fec87504469afdf121355876006/themes
+# https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes

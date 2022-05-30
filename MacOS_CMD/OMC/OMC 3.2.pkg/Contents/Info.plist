@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>OnMyCommand 3.2 Copyrights © 2002-2015 Abracode</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.abracode.pkg.OnMyCommand</string>
+	<key>CFBundleName</key>
+	<string>OnMyCommand</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.2</string>
+	<key>IFMajorVersion</key>
+	<integer>3</integer>
+	<key>IFMinorVersion</key>
+	<integer>1</integer>
+	<key>IFPkgBuildDate</key>
+	<date>2015-04-15T01:57:26Z</date>
+	<key>IFPkgBuildVersion</key>
+	<string>14D131</string>
+	<key>IFPkgCreator</key>
+	<string>IcebergBuilder 1.2.9</string>
+	<key>IFPkgFlagAllowBackRev</key>
+	<true/>
+	<key>IFPkgFlagAuthorizationAction</key>
+	<string>AdminAuthorization</string>
+	<key>IFPkgFlagBackgroundAlignment</key>
+	<string>bottomleft</string>
+	<key>IFPkgFlagBackgroundScaling</key>
+	<string>none</string>
+	<key>IFPkgFlagDefaultLocation</key>
+	<string>/</string>
+	<key>IFPkgFlagFollowLinks</key>
+	<false/>
+	<key>IFPkgFlagInstalledSize</key>
+	<integer>15028</integer>
+	<key>IFPkgFlagIsRequired</key>
+	<true/>
+	<key>IFPkgFlagOverwritePermissions</key>
+	<true/>
+	<key>IFPkgFlagRelocatable</key>
+	<false/>
+	<key>IFPkgFlagRestartAction</key>
+	<string>RecommendedRestart</string>
+	<key>IFPkgFlagRootVolumeOnly</key>
+	<true/>
+	<key>IFPkgFlagUpdateInstalledLanguages</key>
+	<false/>
+	<key>IFPkgFormatVersion</key>
+	<real>0.10000000149011612</real>
+</dict>
+</plist>

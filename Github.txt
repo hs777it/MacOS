@@ -1,0 +1,55 @@
+
+
+
+https://github.com/yangshun/delete-github-forks
+
+
+
+…or create a new repository on the command line
+  echo "# WP-Plugins" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/hs777it/WP-Plugins.git
+  git push -u origin main
+
+
+…or push an existing repository from the command line
+  git remote add origin https://github.com/hs777it/WP-Plugins.git
+  git branch -M main
+  git push -u origin main
+
+-----------------------------------------------------------------------
+=-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-=
+-----------------------------------------------------------------------
+
+
+  echo "# plugin-settings" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hs777it/plugin-settings.git
+git push -u origin main
+
+git remote add origin https://github.com/hs777it/plugin-settings.git
+git branch -M main
+git push -u origin main
+
+-----------------------------------------------------------------------
+=-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-=
+-----------------------------------------------------------------------
+
+Get a list of handles and associated URLs:
+
+git remote -v 
+
+git remote remove origin
+git remote rm origin
+
+-----------------------------------------------------------------------
+=-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-=
+-----------------------------------------------------------------------
+Remove ._ from folder before:
+find . -type f -name '._*' -delete

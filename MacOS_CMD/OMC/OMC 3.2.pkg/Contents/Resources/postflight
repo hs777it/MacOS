@@ -1,0 +1,53 @@
+#!/bin/sh
+
+#echo "$SCRIPT_NAME: removing OnMyCommandCM from user location";
+/bin/rm -fR "$HOME/Library/Contextual Menu Items/OnMyCommandCM.plugin";
+
+#begin services plug-in installation in user directory
+ABRACODE_SUPPORT='/Library/Frameworks/Abracode.framework/Support';
+OMC_SERVICE="$HOME/Library/Services/OMCService.service";
+
+if test ! -d "$HOME/Library/Services"; then
+	/bin/mkdir -m "a=rwx" "$HOME/Library/Services";
+fi
+
+if test -f "$OMC_SERVICE/Contents/Info.plist"; then
+	#OMCService already exits, backup its plist which may contain user items
+	/bin/cp "$OMC_SERVICE/Contents/Info.plist" '/tmp/OMCServiceInfo.plist';
+fi
+
+if test -f "$OMC_SERVICE/Contents/Resources/Command.plist"; then
+	#OMCService already exits, backup its command list which may contain user items
+	/bin/cp "$OMC_SERVICE/Contents/Resources/Command.plist" '/tmp/OMCServiceCommand.plist';
+fi
+
+if test -d "$OMC_SERVICE"; then
+	/bin/rm -fR "$OMC_SERVICE";
+fi
+
+#now copy the service
+/bin/cp -fR "$ABRACODE_SUPPORT/OMCService.service" "$OMC_SERVICE";
+
+if test -f '/tmp/OMCServiceInfo.plist'; then
+	/bin/cp -f '/tmp/OMCServiceInfo.plist' "$OMC_SERVICE/Contents/Info.plist";
+	/bin/rm -f '/tmp/OMCServiceInfo.plist';
+fi
+
+if test -f '/tmp/OMCServiceCommand.plist'; then
+	/bin/cp -f '/tmp/OMCServiceCommand.plist' "$OMC_SERVICE/Contents/Resources/Command.plist";
+	/bin/rm -f '/tmp/OMCServiceCommand.plist';
+fi
+
+#it is owned by root, add write privilege to admins
+/bin/chmod -R g+w "$OMC_SERVICE";
+
+#Iceberg makes the OMC folder owned by root and read-only for admins, add write for admins
+/bin/chmod -R g+w "/Applications/OMC"
+
+#echo "$SCRIPT_NAME: opening OMC folder";
+
+/usr/bin/open "/Applications/OMC";
+#open brings Finder forward, bring Installer back to front
+/usr/bin/osascript -e 'tell app "Installer" to activate';
+
+exit 0;

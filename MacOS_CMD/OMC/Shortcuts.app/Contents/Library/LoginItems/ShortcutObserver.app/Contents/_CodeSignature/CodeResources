@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Resources/Alias Context Providers/BBEdit.scpt</key>
+		<data>
+		lpja4TbT0jWD5QwSoWbmO2ptUuw=
+		</data>
+		<key>Resources/Alias Context Providers/Microsoft Excel.scpt</key>
+		<data>
+		Qow4Td1gR/dGfiPXMY7+Qawlbdk=
+		</data>
+		<key>Resources/Alias Context Providers/Microsoft PowerPoint.scpt</key>
+		<data>
+		pvngO+/88ZiEXyJrPGousKrXpzc=
+		</data>
+		<key>Resources/Alias Context Providers/Microsoft Word.scpt</key>
+		<data>
+		p3ogeH+7gTIUn+wJqclr9rl4L1w=
+		</data>
+		<key>Resources/Alias Context Providers/QuickTime Player.scpt</key>
+		<data>
+		MqDojFxNDbPsoGTDdhQ6pvVfZRo=
+		</data>
+		<key>Resources/Alias Context Providers/Script Editor.scpt</key>
+		<data>
+		OJ/25V6Li7P1F1SX/KguN7+RxMI=
+		</data>
+		<key>Resources/Alias Context Providers/TextEdit.scpt</key>
+		<data>
+		4slP/QJW4MM7aMAg8fANLjFBpuY=
+		</data>
+		<key>Resources/Alias Context Providers/TextWrangler.scpt</key>
+		<data>
+		L0QxusJJZEuvevoPViP32ONE+s4=
+		</data>
+		<key>Resources/Alias Context Providers/iTunes.scpt</key>
+		<data>
+		Pp3vHol2mmG/fMqgzPSB73t+bB8=
+		</data>
+		<key>Resources/Base.lproj/Main.nib</key>
+		<data>
+		ilaT+W3BZfhAsaXMc2r6B8tLWF8=
+		</data>
+		<key>Resources/Bezel Images/Cloud.png</key>
+		<data>
+		FqlqfMzDRxEfOQeSEcvDVXibWoc=
+		</data>
+		<key>Resources/Bezel Images/Curly Braces.png</key>
+		<data>
+		hIoXWFuSrsmonGMaIhkVJt2RDTQ=
+		</data>
+		<key>Resources/Bezel Images/Oval.png</key>
+		<data>
+		BZ7M+TN/JzpmtgPMmyG5ryPxzI8=
+		</data>
+		<key>Resources/Bezel Images/Pill.png</key>
+		<data>
+		dpo22vUMm1O2sCm2TspxKKtS+58=
+		</data>
+		<key>Resources/Bezel Images/Rectangle.png</key>
+		<data>
+		WgIVhv9GRbU1jb6X+LJIRK+PwDE=
+		</data>
+		<key>Resources/Bezel Images/Round Rectangle.png</key>
+		<data>
+		sMt1vqQSQB0qKbyx9eyrlnL8QuI=
+		</data>
+		<key>Resources/Bezel Images/Splash.png</key>
+		<data>
+		ka3AZ6YnqU6wnBjtwx/MD0uhSkM=
+		</data>
+		<key>Resources/Error Bezels/CannotFind.png</key>
+		<data>
+		nroDTiRoJj6F6UnkM6/9kQNkZAg=
+		</data>
+		<key>Resources/Error Bezels/CannotLoad.png</key>
+		<data>
+		/rOHZIuIBYpYDIl+6Q3A9KRzlj8=
+		</data>
+		<key>Resources/Error Bezels/NotActive.png</key>
+		<data>
+		dZ62U6iBdNT4BemVIazOoB5phR0=
+		</data>
+		<key>Resources/Error Bezels/PluginError.png</key>
+		<data>
+		C41Bcu3X6c4vNbfrI0OkL36OIs8=
+		</data>
+		<key>Resources/ShortcutObserver.icns</key>
+		<data>
+		a1eUXVwBR8eG7QpHxeM4i5x6cLY=
+		</data>
+		<key>Resources/Text Context Providers/BBEdit.scpt</key>
+		<data>
+		iTBTgvOSz3YKpdFIvbQNuaTPcnA=
+		</data>
+		<key>Resources/Text Context Providers/Microsoft Excel.scpt</key>
+		<data>
+		bdJYX+ke3Cp3DoFhMn3283LF0CI=
+		</data>
+		<key>Resources/Text Context Providers/Microsoft Outlook.scpt</key>
+		<data>
+		Hx8Jft2m409DaX21nyIcXSXuTpk=
+		</data>
+		<key>Resources/Text Context Providers/Microsoft Word.scpt</key>
+		<data>
+		tjGuv1gj5Gv5MFAHVb3Kb056KOM=
+		</data>
+		<key>Resources/Text Context Providers/Script Editor.scpt</key>
+		<data>
+		Zvn0Uwcvs4a82dEzhX4tdPlPKE8=
+		</data>
+		<key>Resources/Text Context Providers/TextWrangler.scpt</key>
+		<data>
+		WFjIUi7E+oiOvNSyw7jADoarFEs=
+		</data>
+		<key>Resources/Text Context Providers/iTunes.scpt</key>
+		<data>
+		tzOjPkIgPwGdQwPv0We13UfIdCE=
+		</data>
+		<key>Resources/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+0OGA7fF4r/k1ggXh4LSsFls0II=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/en.lproj/Main.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Cie0dxijMY7AO+p+mKlQqiR8gaA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>Resources/Alias Context Providers/BBEdit.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gy/dQ1RSOBmIctnLoZyePMyIQg4i8IZNSwK5a3jS9V0=
+			</data>
+		</dict>
+		<key>Resources/Alias Context Providers/Microsoft Excel.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1qj+BGx2teFfNMLEiwM4/RZ4egaFl5v4cnKOJhK6jSM=
+			</data>
+		</dict>
+		<key>Resources/Alias Context Providers/Microsoft PowerPoint.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kBkcNwl3/QgTXpN8iG5fV0hAfKjXmHRdv73YVuVHKwU=
+			</data>
+		</dict>
+		<key>Resources/Alias Context Providers/Microsoft Word.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CGgSuxYa2F1lodiQcgr93iI1tQIq1YkTTl1G1nGQQWg=
+			</data>
+		</dict>
+		<key>Resources/Alias Context Providers/QuickTime Player.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mgsd6EBKw4VarOF8j/Wz6xrI3+12beJ6lc8IfeMmIUM=
+			</data>
+		</dict>
+		<key>Resources/Alias Context Providers/Script Editor.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oGV7fb4oXHL51OViIs6ZetoIc3tAmwTsO4bK8UELPOM=
+			</data>
+		</dict>
+		<key>Resources/Alias Context Providers/TextEdit.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			po9yye3k85mpFRpyjiz5sQYMMs+wegN5nO6nbLTs9Zw=
+			</data>
+		</dict>
+		<key>Resources/Alias Context Providers/TextWrangler.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5z03/bS+T76hbcdlfex+0sGvQtbwr7U9rtxgtaLyuA8=
+			</data>
+		</dict>
+		<key>Resources/Alias Context Providers/iTunes.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8wjbjG/IyNT1DX6+h3bVDw3a33DrjX1yuAvJgIF9Mvo=
+			</data>
+		</dict>
+		<key>Resources/Base.lproj/Main.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7R1QBcCvyjg0mVbSOBuKCrixSB7SFAgJciWLlxRHXEU=
+			</data>
+		</dict>
+		<key>Resources/Bezel Images/Cloud.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ztUWT3deOSRJSS0cApvSBiVtTXLmX2osphDKUBD1Ktk=
+			</data>
+		</dict>
+		<key>Resources/Bezel Images/Curly Braces.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TzNmeZW82XGpkHrMIQOH96zt4yWpWYKAxaUjxT6q/6E=
+			</data>
+		</dict>
+		<key>Resources/Bezel Images/Oval.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fizb2m8wpgZ4Y+vEUrijrbFl48M1GBA1SAF80oCWzIE=
+			</data>
+		</dict>
+		<key>Resources/Bezel Images/Pill.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wRDcQ3TYNQd2KxIG04+4TF+Hq+kbJo3I/0iLtgaMpbY=
+			</data>
+		</dict>
+		<key>Resources/Bezel Images/Rectangle.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			abUQPs14D4PXO9piA+6AaefzjpYJnGt4R+0YwTZZSOU=
+			</data>
+		</dict>
+		<key>Resources/Bezel Images/Round Rectangle.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CVxu79hmk5Xgh89zWcyW9nmOAz4sWFUDix2x4c+GoEI=
+			</data>
+		</dict>
+		<key>Resources/Bezel Images/Splash.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yoD3Mi/8UKc7QMyIcRKSecIv8Q2V+Pi4wJVEiWv2M64=
+			</data>
+		</dict>
+		<key>Resources/Error Bezels/CannotFind.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ptgr/Ivm4Uo+md21uR3giLqgB/nb8cW/Jarpsa5ehxc=
+			</data>
+		</dict>
+		<key>Resources/Error Bezels/CannotLoad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BFO9LQoB2li+upZwl1oNGq2NFJhqRZSU6HR2m6H2mAY=
+			</data>
+		</dict>
+		<key>Resources/Error Bezels/NotActive.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Jhx+JijFAxxJ7lBkttGnOLZ22NwFuTPX29WV0Cf/BvY=
+			</data>
+		</dict>
+		<key>Resources/Error Bezels/PluginError.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0kbs1Z2pnaxtIX0YA/4hc2mJtW1f7spcW8ObdMsO6is=
+			</data>
+		</dict>
+		<key>Resources/ShortcutObserver.icns</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Fvfajilf5BWo7XSdLrZWOu0AEZrOWNUn+kcozb+9wuk=
+			</data>
+		</dict>
+		<key>Resources/Text Context Providers/BBEdit.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pKL4+D4muqgk4GFR6IK7seuHHX/0qlew4Ym2f8UVk88=
+			</data>
+		</dict>
+		<key>Resources/Text Context Providers/Microsoft Excel.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aiyARecQm4EhUP/wCla2A7cxmYl+e/tUvp7m6IPOg4U=
+			</data>
+		</dict>
+		<key>Resources/Text Context Providers/Microsoft Outlook.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2TylnKvMhIvJEkFrTtVcwPZEnWxsZzgsBE9i2NwvBf4=
+			</data>
+		</dict>
+		<key>Resources/Text Context Providers/Microsoft Word.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sX1KBnYEmFKvWRtt/bYCq8kjHJxYhCNRKUrS5Ytqnz4=
+			</data>
+		</dict>
+		<key>Resources/Text Context Providers/Script Editor.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N1GKqtJU8/UzSvCSz7aNXRAABRuf1t4YHbpPHZenhVw=
+			</data>
+		</dict>
+		<key>Resources/Text Context Providers/TextWrangler.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N800fe8p6noBXcxg1bE7GpMvuuJmJnYOb9M+FvGwykY=
+			</data>
+		</dict>
+		<key>Resources/Text Context Providers/iTunes.scpt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yXgckkG/lJHPiLmlMrJ9A2zM/Yx6JHzgtn5NQbfoS0I=
+			</data>
+		</dict>
+		<key>Resources/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0DMT/QxjlIVn6EwShRycOy9IJpzEormZLr8QZBw892A=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/en.lproj/Main.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aO/62mFTIPdV+IvfKlH0xVyxvUnq1IhK3EWzvG6n068=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

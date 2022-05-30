@@ -1,0 +1,6 @@
+find . -type f -name '._*' -delete 
+
+
+chflags hidden /Users/hs07/_Profile/bash_profile.txt
+chflags nohidden /Users/hs07/_Profile/bash_profile.txt
+
