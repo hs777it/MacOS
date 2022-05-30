@@ -1,6 +1,9 @@
 find . -type f -name '._*' -delete 
 
 
-chflags hidden /Users/hs07/_Profile/bash_profile.txt
+chflags - R hidden /Users/hs07/_Profile/bash_profile.txt
 chflags nohidden /Users/hs07/_Profile/bash_profile.txt
 
+sudo chlfags - R hidden /Users/user/Documents/
+sudo chlfags - R nohidden /Users/user/Documents/
+killall Finder
