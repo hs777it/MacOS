@@ -1,12 +1,9 @@
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home"
 
-
 export PATH="$PATH:$HOME/Dev/flutter/bin"
 
 export PATH=/Applications/XAMPP/xamppfiles/bin:$PATH
-
-export PATH=~/.composer/vendor/bin:$PATH
-
+# export PATH=~/.composer/vendor/bin:$PATH
 
 alias desk='cd ~/Desktop'
 
@@ -18,8 +15,7 @@ alias js='cd /Users/hs07/DevFiles/DevEx/JS'
 
 alias fl='cd /Users/hs07/DevFiles/DevEx/Flutter'
 
-alias profile='sudo nano ~/.bash_profile'
-alias pf='code ~/.bash_profile'
+alias profile='code ~/.bash_profile'
 
 alias xmp='sudo apachectl start & sudo mysql.server start'
 
@@ -30,15 +26,35 @@ alias ecom="/Volumes/Data-Soft/DevFiles/Laravel/store-ecommerce"
 alias sc="scrcpy --turn-screen-off --stay-awake --always-on-top"
 
 alias cl="clear"
+alias deldot="find . -type f -name '._*' -delete "
+
+alias tr="sudo rm -rf ~/.Trash/*"
 
 alias bsh="source ~/.bash_profile"
 
-
+alias avds='~/Library/Android/sdk/tools/emulator -list-avds'
+# Usage in Terminal: avd NameOfAvd
+avd(){
+  ~/Library/Android/sdk/tools/emulator -avd "$1"
+}
 
 # Usage in Terminal: dmg /My/Source/Folder NameOfDmg
 dmg(){
   hdiutil create -fs HFS+ -srcfolder "$1" -volname "$2" "$2.dmg"
 }
+del(){
+    find . -name '.DS_Store' -type f -delete
+    find . -name '._' -type f -delete
+    rm -v **/.DS_Store
+    rm -v **/__MACOSX*
+}
+function ff { osascript -e 'tell application "Finder"'\
+ -e "if (${1-1} <= (count Finder windows)) then"\
+ -e "get POSIX path of (target of window ${1-1} as alias)"\
+ -e 'else' -e 'get POSIX path of (desktop as alias)'\
+ -e 'end if' -e 'end tell'; };\
+
+function cdff { cd "`ff $@`"; };
 
 # =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= Not Tested 
 #  ---------------------------------------------------------------------------
@@ -69,8 +85,8 @@ dmg(){
 
 #   Set Paths
 #   ------------------------------------------------------------
-    export PATH="$PATH:/usr/local/bin/"
-    export PATH="/usr/local/git/bin:/sw/bin/:/usr/local/bin:/usr/local/:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
+    # export PATH="$PATH:/usr/local/bin/"
+    # export PATH="/usr/local/git/bin:/sw/bin/:/usr/local/bin:/usr/local/:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
 
 #   Set Default Editor (change 'Nano' to the editor of your choice)
 #   ------------------------------------------------------------
