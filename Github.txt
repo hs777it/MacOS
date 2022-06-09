@@ -1,8 +1,51 @@
-
-
+Github:
 
 https://github.com/yangshun/delete-github-forks
 
+
+-------------------- Branches -------------------- 
+--------------------------------------------------
+All the branches:
+git branch
+git branch -a
+
+Create new branch:
+git branch <name_of_your_new_branch>
+
+Create the branch on your local machine and switch in this branch:
+git checkout -b <name_of_your_new_branch>
+
+Edit files, add and commit:
+git commit -m "your_commit"
+
+git push -u origin <name_of_your_new_branch>
+
+Push the branch on github:
+git push origin <name_of_your_new_branch>
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+Add a new remote for your branch:
+git remote add [name_of_your_remote] <name_of_your_new_branch>
+
+Push changes from your commit into your branch:
+git push [name_of_your_new_remote] [url]
+
+Update your branch when the original branch from official repository has been updated :
+git fetch [name_of_your_remote]
+
+Delete a branch on your local filesystem:
+git branch -d <name_of_your_new_branch>
+
+To force the deletion of local branch on your filesystem :
+git branch -D <name_of_your_new_branch>
+
+Delete the branch on github:
+git push origin:<name_of_your_new_branch>
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
 
 
 …or create a new repository on the command line
@@ -19,23 +62,6 @@ https://github.com/yangshun/delete-github-forks
   git remote add origin https://github.com/hs777it/WP-Plugins.git
   git branch -M main
   git push -u origin main
-
------------------------------------------------------------------------
-=-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-=
------------------------------------------------------------------------
-
-
-  echo "# plugin-settings" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/hs777it/plugin-settings.git
-git push -u origin main
-
-git remote add origin https://github.com/hs777it/plugin-settings.git
-git branch -M main
-git push -u origin main
 
 -----------------------------------------------------------------------
 =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-=
